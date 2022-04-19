@@ -3,6 +3,10 @@ html {
     padding: 0;
     margin: 0;
 }
+
+body {
+    margin: 0;
+}
 .body{
     display: flex;
     flex-direction: column;
@@ -26,13 +30,14 @@ html {
 }
 
 
-.header ul {
+.header ul,  a{
     list-style-type: none;
     display: flex;
     gap: 20px;
     margin-left: auto;
     color: #E5E7EB;
     font-size: 18px;
+    text-decoration: none;
 }
 
 .container1 {
